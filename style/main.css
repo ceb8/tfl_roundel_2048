@@ -4,7 +4,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #fff;
-  color: #4d2523;
+  color: #59174e;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -19,9 +19,10 @@ body {
   display: block;
   clear: both; }
 
+
 h1.title {
-  font-size: 80px;
-  font-weight: bold;
+  font-size: 85px;
+  font-weight: 900;
   margin: 0;
   display: block;
   text-align: center; }
@@ -31,7 +32,7 @@ h1.title {
 .title-container {
   position: relative;
   display: inline-block;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;}
 
 @-webkit-keyframes move-up {
   0% {
@@ -65,7 +66,7 @@ h1.title {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  background: #f67098;
+  background: #42c4c4;
   padding: 15px 0px;
   font-size: 19px;
   text-transform: capitalize;
@@ -89,7 +90,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #3c1b1a; }
+    color: #59174e; }
   .score-container .score-addition, .best-container .score-addition,
 	.score-points .score-addition, .best-points .score-addition {
     position: absolute;
@@ -100,7 +101,7 @@ h1.title {
     font-size: 19px;
     line-height: 19px;
     font-weight: bold;
-    color: rgba(77, 37, 35, 0.9);
+    color: #59174e;
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -115,14 +116,14 @@ h1.title {
   float: right; }
 
 .score-container:after {
-  content: "Cupcake"; }
+  content: "Roundel"; }
 .score-points:after {
-  content: "Kcal"; }
+  content: "Score"; }
 
 .best-container:after {
-  content: "Cupcake Max"; }
+  content: "Roundel Max"; }
 .best-points:after {
-	content: "Kcal Max"; }
+	content: "Best Score"; }
 
 p {
   margin-top: 0;
@@ -130,7 +131,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #4d2523;
+  color: #59174e;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -140,7 +141,7 @@ strong.important {
 
 hr {
   border: none;
-  border-bottom: 1px solid #fbb8cc;
+  border-bottom: 1px solid #a7a7d3;
   margin-top: 20px;
   margin-bottom: 30px; }
 
@@ -178,7 +179,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #f67098;
+  background: #7776c0;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -212,7 +213,7 @@ hr {
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #f888a9;
+      background: #7776c0;
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
@@ -530,11 +531,11 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #f888a9;
+  background: #028485;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #3c1b1a;
+  color: #ffffff;
   height: 40px;
   line-height: 42px;
   display: block;
@@ -598,7 +599,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #f67098;
+    background: #7776c0;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -632,7 +633,7 @@ hr {
         margin-top: 59px; }
       .game-container .game-message a {
         display: inline-block;
-        background: #f888a9;
+        background: #a7a7d3;
         border-radius: 3px;
         padding: 0 20px;
         text-decoration: none;
@@ -784,7 +785,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #f67098;
+  background: #7776c0;
   border-radius: 4px;
   width: 73px;
   height: 73px;
