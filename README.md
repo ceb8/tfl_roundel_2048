@@ -1,6 +1,5 @@
-Cupcakes version of [2048](http://gabrielecirulli.github.io/2048/) game
-========================================================================
+TFL Roundel version of [2048](http://gabrielecirulli.github.io/2048/)
+=====================================================================
 
-Play here: http://0x0800.github.io/2048-CUPCAKES/
+Play here: [http://0x0800.github.io/2048-CUPCAKES/](https://ceb8.github.io/tfl_roundel_2048/)
 
-[![2048 CUPCAKES](http://oi62.tinypic.com/9u7rkk.jpg)](http://0x0800.github.io/2048-CUPCAKES/)
